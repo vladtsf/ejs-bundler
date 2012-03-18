@@ -6,16 +6,6 @@ var
 var 
 	Bundler = require('./lib/Bundler.js');
 
-
-
-
-/*process.on('uncaughtException', function (err) {
-	if(err.throwable) {
-		console.error(err.toString());
-		process.exit();
-	}
-});*/
-
 /**
  * Application object
  */
