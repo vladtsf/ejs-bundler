@@ -1,0 +1,23 @@
+{
+  "author": "Vladimir Tsvang <vtsvang@gmail.com>",
+  "name": "ejs-bundler",
+  "description": "Bundles many EJS templates into the one file",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:vtsvang/ejs-bundler.git"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": "~0.6.6"
+  },
+  "bin"     : {
+    "ejs-bundler" : "./index.js"
+  },
+  "dependencies": {
+    "async" : ">=0.1.1",
+    "uglify-js" : ">=1.2.6",
+    "optimist" : ">=0.3.1"
+  },
+  "devDependencies": {}
+}
